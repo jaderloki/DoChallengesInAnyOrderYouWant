@@ -9,5 +9,5 @@ so please if you just want to test the mod, remember to **BACKUP YOUR SAVEDGAME*
 ![image](https://user-images.githubusercontent.com/62562208/162847227-d1132dae-8f92-4cb4-9cb3-6e9cb21cf782.png)
 
 ## Bugs found
-+ The game dont add to the progress, objectives that have <scoreSource type="StatsGoalScoreSourceScript"> as part of their score system, the fix i found for this was to set its parent challenge name/id to its original (case/scenario: MASTER HUNTER RANK 2), but unfortunally the game have other ranks that belong to the same challenge so this fix isnt doable for now.
-  ¨Ranks possible affected by this but not tested yet: GAMBLER RANK 4 (poker), GAMBLER RANK 6(blackjack), GAMBLER RANK 7 (fivefinger)
++ The game dont add to the progress, objectives that have scoreSource type="StatsGoalScoreSourceScript" as part of their score system. The fix i found for this was to set its parent challenge name/id to its original name (case/scenario: MASTER HUNTER RANK 2), but unfortunally the game have other ranks with this type of score that belong in the same challenge, so a fix for this isnt doable for this other cases now (Need help from .ASI programmers).
+  ¨Ranks possible affected by this type of score, but not tested yet: GAMBLER RANK 4 (poker), GAMBLER RANK 6(blackjack), GAMBLER RANK 7 (fivefinger)
