@@ -20,3 +20,4 @@ Ranks possible affected by this type of score, but needed to be tested yet: GAMB
 ![image](https://user-images.githubusercontent.com/62562208/162848483-33409702-f38a-48c0-8b96-36db29a03dc7.png)
 ![image](https://user-images.githubusercontent.com/62562208/162848538-2da38d3f-0dba-4247-8ad1-f3171ac5defc.png)
 but it probably can be fixed by tweaking the challenges_sp.meta tags.
++ The game automatically append a numeric value to the name of the challenge so it cant get confusing if you know the challenges through the number but the description of the challenge remains in its original localization
