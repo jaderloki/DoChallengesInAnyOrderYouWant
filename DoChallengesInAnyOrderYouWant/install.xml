@@ -1,0 +1,19 @@
+<EasyInstall>
+  <Name>DoChallengesInAnyOrderYouWant</Name>
+  <Author>Jader</Author>
+  <Version>1.0.0</Version>
+  <Link></Link>
+  <Metadata></Metadata>
+  <Resources>
+    <Resource>	
+            <FileReplacement>
+				<GamePath>update:/common/data/stats_and_challenges/challenges_sp.meta</GamePath>
+                <FilePath>challenges_sp.meta</FilePath>
+            </FileReplacement>
+			<!--<FileReplacement>
+				<GamePath>update:/common/data/stats_and_challenges/goals_sp.meta</GamePath>
+                <FilePath>goals_sp.meta</FilePath>
+            </FileReplacement>-->
+	</Resource>	
+  </Resources>
+</EasyInstall>

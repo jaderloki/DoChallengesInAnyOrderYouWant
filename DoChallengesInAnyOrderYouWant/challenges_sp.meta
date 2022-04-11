@@ -1,0 +1,4404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Challenges>
+	<challenges>
+
+		<!-- ============================================================================================ BANDIT ================================================================================================ -->
+		<Item type="StatsChallengeLinear">                                                          
+			<name>SP_CHAL_BAND_ROOT_1</name>                                                       
+			<uiInfo type="StatsChallengeLinearUIInfo">                                              
+				<challengeNameLabel>ACBAND_01_townsfolk</challengeNameLabel>                   
+				<challengeDescLabel>ACBAND_01_obj</challengeDescLabel>                              
+				<textureDictionary>pausemenu_challenges</textureDictionary>                         
+				<texture>CHALLENGE_OVERVIEW_BANDIT</texture>                                        
+				<menuLink>to_bandit</menuLink>                                                      
+				<entryType>kLogEntryChallenge</entryType>                                           
+				<toolTip>ACBANDIT_TOP_TIP</toolTip>                                            		
+				<displayInLog value="true" />                                                       
+				<displayInChallengeMenu value="true" />                                             
+				<displayGoalOnCompletion value="true" />                                            
+			</uiInfo>                                                                               
+			<ranks> 
+
+				<!-- BANDIT RANK 1 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_BAND_Rank_01_Townsfolk</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_BANDOLIER_GATOR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SHOW_LOG_TUTORIAL</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_BANDIT_RANK_1_COMPLETED</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACBANDIT</challengeNameLabel>
+						<rankDescLabel>ACBAND_01_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_BANDIT_1</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACBAND_01_townsfolk</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_bandit</textureDictionary>
+						<texture>CHALLENGE_BANDIT_1</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="1" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">                                                          
+			<name>SP_CHAL_BAND_ROOT_2</name>                                                       
+			<uiInfo type="StatsChallengeLinearUIInfo">                                              
+				<challengeNameLabel>ACBAND_02_coachrobberies</challengeNameLabel>                   
+				<challengeDescLabel>ACBAND_02_obj</challengeDescLabel>                              
+				<textureDictionary>pausemenu_challenges</textureDictionary>                         
+				<texture>CHALLENGE_OVERVIEW_BANDIT</texture>                                        
+				<menuLink>to_bandit</menuLink>                                                      
+				<entryType>kLogEntryChallenge</entryType>                                           
+				<toolTip>ACBANDIT_TOP_TIP</toolTip>                                            		
+				<displayInLog value="true" />                                                       
+				<displayInChallengeMenu value="true" />                                             
+				<displayGoalOnCompletion value="true" />                                            
+			</uiInfo>                                                                               
+			<ranks> 
+
+				<!-- BANDIT RANK 2 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_BAND_Rank_02_CoachRobberies</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_FIRST_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIVE_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACBANDIT</challengeNameLabel>
+						<rankDescLabel>ACBAND_02_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_BANDIT_2</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACBAND_02_coachrobberies</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_bandit</textureDictionary>
+						<texture>CHALLENGE_BANDIT_2</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="2" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">                                                          
+			<name>SP_CHAL_BAND_ROOT_3</name>                                                       
+			<uiInfo type="StatsChallengeLinearUIInfo">                                              
+				<challengeNameLabel>ACBAND_03_shopsrobberies</challengeNameLabel>                   
+				<challengeDescLabel>ACBAND_03_obj</challengeDescLabel>                              
+				<textureDictionary>pausemenu_challenges</textureDictionary>                         
+				<texture>CHALLENGE_OVERVIEW_BANDIT</texture>                                        
+				<menuLink>to_bandit</menuLink>                                                      
+				<entryType>kLogEntryChallenge</entryType>                                           
+				<toolTip>ACBANDIT_TOP_TIP</toolTip>                                            		
+				<displayInLog value="true" />                                                       
+				<displayInChallengeMenu value="true" />                                             
+				<displayGoalOnCompletion value="true" />                                            
+			</uiInfo>                                                                               
+			<ranks> 
+
+				<!-- BANDIT RANK 3 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_BAND_Rank_03_ShopRobberies</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_HOLSTER_GATOR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACBANDIT</challengeNameLabel>
+						<rankDescLabel>ACBAND_03_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACBAND_03_shopsrobberies</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_bandit</textureDictionary>
+						<texture>CHALLENGE_BANDIT_3</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="3" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">                                                          
+			<name>SP_CHAL_BAND_ROOT_4</name>                                                       
+			<uiInfo type="StatsChallengeLinearUIInfo">                                              
+				<challengeNameLabel>ACBAND_04_coachesrobbedinaday</challengeNameLabel>                   
+				<challengeDescLabel>ACBAND_04_obj</challengeDescLabel>                              
+				<textureDictionary>pausemenu_challenges</textureDictionary>                         
+				<texture>CHALLENGE_OVERVIEW_BANDIT</texture>                                        
+				<menuLink>to_bandit</menuLink>                                                      
+				<entryType>kLogEntryChallenge</entryType>                                           
+				<toolTip>ACBANDIT_TOP_TIP</toolTip>                                            		
+				<displayInLog value="true" />                                                       
+				<displayInChallengeMenu value="true" />                                             
+				<displayGoalOnCompletion value="true" />                                            
+			</uiInfo>                                                                               
+			<ranks> 
+
+				<!-- BANDIT RANK 4 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_BAND_Rank_04_CoachesRobbedInADay</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACBANDIT</challengeNameLabel>
+						<rankDescLabel>ACBAND_04_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_BANDIT_4</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACBAND_04_coachesrobbedinaday</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_bandit</textureDictionary>
+						<texture>CHALLENGE_BANDIT_4</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="4" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">                                                          
+			<name>SP_CHAL_BAND_ROOT_5</name>                                                       
+			<uiInfo type="StatsChallengeLinearUIInfo">                                              
+				<challengeNameLabel>ACBAND_05_highestbounty</challengeNameLabel>                   
+				<challengeDescLabel>ACBAND_05_obj</challengeDescLabel>                              
+				<textureDictionary>pausemenu_challenges</textureDictionary>                         
+				<texture>CHALLENGE_OVERVIEW_BANDIT</texture>                                        
+				<menuLink>to_bandit</menuLink>                                                      
+				<entryType>kLogEntryChallenge</entryType>                                           
+				<toolTip>ACBANDIT_TOP_TIP</toolTip>                                            		
+				<displayInLog value="true" />                                                       
+				<displayInChallengeMenu value="true" />                                             
+				<displayGoalOnCompletion value="true" />                                            
+			</uiInfo>                                                                               
+			<ranks> 
+
+				<!-- BANDIT RANK 5 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_BAND_Rank_05_HighestBounty</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACBANDIT</challengeNameLabel>
+						<rankDescLabel>ACBAND_05_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACBAND_05_highestbounty</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_bandit</textureDictionary>
+						<texture>CHALLENGE_BANDIT_5</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="5" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">                                                          
+			<name>SP_CHAL_BAND_ROOT_6</name>                                                       
+			<uiInfo type="StatsChallengeLinearUIInfo">                                              
+				<challengeNameLabel>ACBAND_06_horsesfenced</challengeNameLabel>                   
+				<challengeDescLabel>ACBAND_06_obj</challengeDescLabel>                              
+				<textureDictionary>pausemenu_challenges</textureDictionary>                         
+				<texture>CHALLENGE_OVERVIEW_BANDIT</texture>                                        
+				<menuLink>to_bandit</menuLink>                                                      
+				<entryType>kLogEntryChallenge</entryType>                                           
+				<toolTip>ACBANDIT_TOP_TIP</toolTip>                                            		
+				<displayInLog value="true" />                                                       
+				<displayInChallengeMenu value="true" />                                             
+				<displayGoalOnCompletion value="true" />                                            
+			</uiInfo>                                                                               
+			<ranks>   
+
+				<!-- BANDIT RANK 6 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_BAND_Rank_06_HorsesFenced</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACBANDIT</challengeNameLabel>
+						<rankDescLabel>ACBAND_06_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACBAND_06_horsesfenced</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_bandit</textureDictionary>
+						<texture>CHALLENGE_BANDIT_6</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="6" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">                                                          
+			<name>SP_CHAL_BAND_ROOT_7</name>                                                       
+			<uiInfo type="StatsChallengeLinearUIInfo">                                              
+				<challengeNameLabel>ACBAND_07_stealcash</challengeNameLabel>                   
+				<challengeDescLabel>ACBAND_07_obj</challengeDescLabel>                              
+				<textureDictionary>pausemenu_challenges</textureDictionary>                         
+				<texture>CHALLENGE_OVERVIEW_BANDIT</texture>                                        
+				<menuLink>to_bandit</menuLink>                                                      
+				<entryType>kLogEntryChallenge</entryType>                                           
+				<toolTip>ACBANDIT_TOP_TIP</toolTip>                                            		
+				<displayInLog value="true" />                                                       
+				<displayInChallengeMenu value="true" />                                             
+				<displayGoalOnCompletion value="true" />                                            
+			</uiInfo>                                                                               
+			<ranks>           
+
+				<!-- BANDIT RANK 7 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_BAND_Rank_07_StealCash</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_OFFHAND_GATOR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACBANDIT</challengeNameLabel>
+						<rankDescLabel>ACBAND_07_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_BANDIT_7</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACBAND_07_stealcash</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_bandit</textureDictionary>
+						<texture>CHALLENGE_BANDIT_7</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="7" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">                                                          
+			<name>SP_CHAL_BAND_ROOT_8</name>                                                       
+			<uiInfo type="StatsChallengeLinearUIInfo">                                              
+				<challengeNameLabel>ACBAND_08_wagonsfenced</challengeNameLabel>                   
+				<challengeDescLabel>ACBAND_08_obj</challengeDescLabel>                              
+				<textureDictionary>pausemenu_challenges</textureDictionary>                         
+				<texture>CHALLENGE_OVERVIEW_BANDIT</texture>                                        
+				<menuLink>to_bandit</menuLink>                                                      
+				<entryType>kLogEntryChallenge</entryType>                                           
+				<toolTip>ACBANDIT_TOP_TIP</toolTip>                                            		
+				<displayInLog value="true" />                                                       
+				<displayInChallengeMenu value="true" />                                             
+				<displayGoalOnCompletion value="true" />                                            
+			</uiInfo>                                                                               
+			<ranks>           
+
+				<!-- BANDIT RANK 8 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_BAND_Rank_08_WagonsFenced</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACBANDIT</challengeNameLabel>
+						<rankDescLabel>ACBAND_08_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACBAND_08_wagonsfenced</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_bandit</textureDictionary>
+						<texture>CHALLENGE_BANDIT_8</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="8" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">                                                          
+			<name>SP_CHAL_BAND_ROOT_9</name>                                                       
+			<uiInfo type="StatsChallengeLinearUIInfo">                                              
+				<challengeNameLabel>ACBAND_09_hogtiedtraintracks</challengeNameLabel>                   
+				<challengeDescLabel>ACBAND_09_obj</challengeDescLabel>                              
+				<textureDictionary>pausemenu_challenges</textureDictionary>                         
+				<texture>CHALLENGE_OVERVIEW_BANDIT</texture>                                        
+				<menuLink>to_bandit</menuLink>                                                      
+				<entryType>kLogEntryChallenge</entryType>                                           
+				<toolTip>ACBANDIT_TOP_TIP</toolTip>                                            		
+				<displayInLog value="true" />                                                       
+				<displayInChallengeMenu value="true" />                                             
+				<displayGoalOnCompletion value="true" />                                            
+			</uiInfo>                                                                               
+			<ranks>                   
+
+				<!-- BANDIT RANK 9 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_BAND_Rank_09_HogtiedTrainTracks</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_FOURTH_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TWENTY_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACBANDIT</challengeNameLabel>
+						<rankDescLabel>ACBAND_09_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACBAND_09_hogtiedtraintracks</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_bandit</textureDictionary>
+						<texture>CHALLENGE_BANDIT_9</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="9" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">                                                          
+			<name>SP_CHAL_BAND_ROOT_10</name>                                                       
+			<uiInfo type="StatsChallengeLinearUIInfo">                                              
+				<challengeNameLabel>ACBAND_10_trainrobberies</challengeNameLabel>                   
+				<challengeDescLabel>ACBAND_10_obj</challengeDescLabel>                              
+				<textureDictionary>pausemenu_challenges</textureDictionary>                         
+				<texture>CHALLENGE_OVERVIEW_BANDIT</texture>                                        
+				<menuLink>to_bandit</menuLink>                                                      
+				<entryType>kLogEntryChallenge</entryType>                                           
+				<toolTip>ACBANDIT_TOP_TIP</toolTip>                                            		
+				<displayInLog value="true" />                                                       
+				<displayInChallengeMenu value="true" />                                             
+				<displayGoalOnCompletion value="true" />                                            
+			</uiInfo>                                                                               
+			<ranks>                                                                                 
+
+				<!-- BANDIT RANK 10 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_BAND_Rank_10_TrainRobberies</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_GUNBELT_GATOR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_BANDIT_TREE_COMPLETED</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACBANDIT</challengeNameLabel>
+						<rankDescLabel>ACBAND_10_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_BANDIT_10</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACBAND_10_trainrobberies</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_bandit</textureDictionary>
+						<texture>CHALLENGE_BANDIT_10</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="10" />
+				</Item>
+			</ranks>
+		</Item>
+		
+
+		<!-- ============================================================================================ EXPLORER ================================================================================================ -->
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_EXPL_ROOT</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACEXPLORER</challengeNameLabel>
+				<challengeDescLabel>ACEXPLORER_TOP_DESC</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_EXPLORER</texture>
+				<menuLink>to_explorer</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACEXPLORER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- EXPLORER RANK 1 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_EXPL_Rank_01_Treasure</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_HOLSTER_BEAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SHOW_LOG_TUTORIAL</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACEXPLORER</challengeNameLabel>
+						<rankDescLabel>ACEXPL_01_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_EXPLORER_1</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACEXPL_01_treasure</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_explorer</textureDictionary>
+						<texture>CHALLENGE_EXPLORER_1</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="11" />
+				</Item>
+
+				<!-- EXPLORER RANK 2 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_EXPL_Rank_02_Treasure</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_FIRST_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIVE_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACEXPLORER</challengeNameLabel>
+						<rankDescLabel>ACEXPL_02_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_EXPLORER_2</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACEXPL_02_treasure</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_explorer</textureDictionary>
+						<texture>CHALLENGE_EXPLORER_2</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="12" />
+				</Item>
+
+				<!-- EXPLORER RANK 3 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_EXPL_Rank_03_Treasure</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_BANDOLIER_BEAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACEXPLORER</challengeNameLabel>
+						<rankDescLabel>ACEXPL_03_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_EXPLORER_3</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACEXPL_03_treasure</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_explorer</textureDictionary>
+						<texture>CHALLENGE_EXPLORER_3</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="13" />
+				</Item>
+
+				<!-- EXPLORER RANK 4 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_EXPL_Rank_04_Treasure</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACEXPLORER</challengeNameLabel>
+						<rankDescLabel>ACEXPL_04_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_EXPLORER_4</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACEXPL_04_treasure</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_explorer</textureDictionary>
+						<texture>CHALLENGE_EXPLORER_4</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="14" />
+				</Item>
+
+				<!-- EXPLORER RANK 5 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_EXPL_Rank_05_Treasure</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACEXPLORER</challengeNameLabel>
+						<rankDescLabel>ACEXPL_05_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_EXPLORER_5</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACEXPL_05_treasure</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_explorer</textureDictionary>
+						<texture>CHALLENGE_EXPLORER_5</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="15" />
+				</Item>
+
+				<!-- EXPLORER RANK 6 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_EXPL_Rank_06_Treasure</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACEXPLORER</challengeNameLabel>
+						<rankDescLabel>ACEXPL_06_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_EXPLORER_6</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACEXPL_06_treasure</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_explorer</textureDictionary>
+						<texture>CHALLENGE_EXPLORER_6</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="16" />
+				</Item>
+
+				<!-- EXPLORER RANK 7 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_EXPL_Rank_07_Treasure</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_GUNBELT_BEAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACEXPLORER</challengeNameLabel>
+						<rankDescLabel>ACEXPL_07_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_EXPLORER_7</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACEXPL_07_treasure</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_explorer</textureDictionary>
+						<texture>CHALLENGE_EXPLORER_7</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="17" />
+				</Item>
+
+				<!-- EXPLORER RANK 8 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_EXPL_Rank_08_Treasure</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACEXPLORER</challengeNameLabel>
+						<rankDescLabel>ACEXPL_08_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_EXPLORER_8</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACEXPL_08_treasure</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_explorer</textureDictionary>
+						<texture>CHALLENGE_EXPLORER_8</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="18" />
+				</Item>
+
+				<!-- EXPLORER RANK 9 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_EXPL_Rank_09_Treasure</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_FOURTH_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TWENTY_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACEXPLORER</challengeNameLabel>
+						<rankDescLabel>ACEXPL_09_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_EXPLORER_9</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACEXPL_09_treasure</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_explorer</textureDictionary>
+						<texture>CHALLENGE_EXPLORER_9</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="19" />
+				</Item>
+
+				<!-- EXPLORER RANK 10 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_EXPL_Rank_10_Treasure</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_OFFHAND_BEAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_EXPLORER_TREE_COMPLETED</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACEXPLORER</challengeNameLabel>
+						<rankDescLabel>ACEXPL_10_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_EXPLORER_10</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACEXPL_10_treasure</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_explorer</textureDictionary>
+						<texture>CHALLENGE_EXPLORER_10</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="20" />
+				</Item>
+			</ranks>
+		</Item>
+
+		<!-- ============================================================================================ GAMBLER ================================================================================================ -->
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_GAMB_ROOT_1</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACGAMB_01_poker</challengeNameLabel>
+				<challengeDescLabel>ACGAMB_01_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_GAMBLER</texture>
+				<menuLink>to_gambler</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACGAMBLER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- GAMBLER RANK 1 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_GAMB_Rank_01_Poker</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_HOLSTER_BOAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SHOW_LOG_TUTORIAL</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACGAMBLER</challengeNameLabel>
+						<rankDescLabel>ACGAMB_01_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_GAMBLER_1</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACGAMB_01_poker</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_gambler</textureDictionary>
+						<texture>CHALLENGE_GAMBLER_1</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="21" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_GAMB_ROOT_2</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACGAMB_02_blackjack</challengeNameLabel>
+				<challengeDescLabel>ACGAMB_02_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_GAMBLER</texture>
+				<menuLink>to_gambler</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACGAMBLER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- GAMBLER RANK 2 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_GAMB_Rank_02_Blackjack</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_FIRST_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIVE_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACGAMBLER</challengeNameLabel>
+						<rankDescLabel>ACGAMB_02_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_GAMBLER_2</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACGAMB_02_blackjack</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_gambler</textureDictionary>
+						<texture>CHALLENGE_GAMBLER_2</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="22" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_GAMB_ROOT_3</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACGAMB_03_fivefingerfillet</challengeNameLabel>
+				<challengeDescLabel>ACGAMB_03_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_GAMBLER</texture>
+				<menuLink>to_gambler</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACGAMBLER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- GAMBLER RANK 3 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_GAMB_Rank_03_FiveFingerFillet</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_BANDOLIER_BOAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACGAMBLER</challengeNameLabel>
+						<rankDescLabel>ACGAMB_03_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_GAMBLER_3</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACGAMB_03_fivefingerfillet</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_gambler</textureDictionary>
+						<texture>CHALLENGE_GAMBLER_3</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="23" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_GAMB_ROOT_4</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel></challengeNameLabel>
+				<challengeDescLabel>ACGAMB_04_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_GAMBLER</texture>
+				<menuLink>to_gambler</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACGAMBLER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- GAMBLER RANK 4 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_GAMB_Rank_04_Poker_FNS</Item>
+						<Item>ACW_GAMB_Rank_04_Poker_SDN</Item>
+						<Item>ACW_GAMB_Rank_04_Poker_VAL</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACGAMBLER</challengeNameLabel>
+						<rankDescLabel>ACGAMB_04_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_GAMBLER_4</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>ACCOMPLETE</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel />
+						<textureDictionary>toast_challenges_gambler</textureDictionary>
+						<texture>CHALLENGE_GAMBLER_4</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="24" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_GAMB_ROOT_5</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACGAMB_05_dominoes</challengeNameLabel>
+				<challengeDescLabel>ACGAMB_05_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_GAMBLER</texture>
+				<menuLink>to_gambler</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACGAMBLER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- GAMBLER RANK 5 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_GAMB_Rank_05_Dominoes</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACGAMBLER</challengeNameLabel>
+						<rankDescLabel>ACGAMB_05_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACGAMB_05_dominoes</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_gambler</textureDictionary>
+						<texture>CHALLENGE_GAMBLER_5</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="25" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_GAMB_ROOT_6</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel></challengeNameLabel>
+				<challengeDescLabel>ACGAMB_06_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_GAMBLER</texture>
+				<menuLink>to_gambler</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACGAMBLER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- GAMBLER RANK 6 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_GAMB_Rank_06_Blackjack_RHO</Item>
+						<Item>ACW_GAMB_Rank_06_Blackjack_VAN</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACGAMBLER</challengeNameLabel>
+						<rankDescLabel>ACGAMB_06_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>ACCOMPLETE</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel />
+						<textureDictionary>toast_challenges_gambler</textureDictionary>
+						<texture>CHALLENGE_GAMBLER_6</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="26" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_GAMB_ROOT_7</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel></challengeNameLabel>
+				<challengeDescLabel>ACGAMB_07_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_GAMBLER</texture>
+				<menuLink>to_gambler</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACGAMBLER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- GAMBLER RANK 7 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_GAMB_Rank_07_FiveFinger_STR</Item>
+						<Item>ACW_GAMB_Rank_07_FiveFinger_VAL</Item>
+						<Item>ACW_GAMB_Rank_07_FiveFinger_VAN</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_GUNBELT_BOAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACGAMBLER</challengeNameLabel>
+						<rankDescLabel>ACGAMB_07_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_GAMBLER_7</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>ACCOMPLETE</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel />
+						<textureDictionary>toast_challenges_gambler</textureDictionary>
+						<texture>CHALLENGE_GAMBLER_7</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="27" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_GAMB_ROOT_8</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACGAMB_08_blackjack</challengeNameLabel>
+				<challengeDescLabel>ACGAMB_08_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_GAMBLER</texture>
+				<menuLink>to_gambler</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACGAMBLER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- GAMBLER RANK 8 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_GAMB_Rank_08_Blackjack</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACGAMBLER</challengeNameLabel>
+						<rankDescLabel>ACGAMB_08_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_GAMBLER_8</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACGAMB_08_blackjack</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_gambler</textureDictionary>
+						<texture>CHALLENGE_GAMBLER_8</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="28" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_GAMB_ROOT_9</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACGAMB_09_dominoes</challengeNameLabel>
+				<challengeDescLabel>ACGAMB_09_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_GAMBLER</texture>
+				<menuLink>to_gambler</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACGAMBLER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- GAMBLER RANK 9 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_GAMB_Rank_09_Dominoes</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_FOURTH_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TWENTY_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACGAMBLER</challengeNameLabel>
+						<rankDescLabel>ACGAMB_09_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_GAMBLER_9</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACGAMB_09_dominoes</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_gambler</textureDictionary>
+						<texture>CHALLENGE_GAMBLER_9</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="29" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_GAMB_ROOT_10</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACGAMB_10_pokerhands</challengeNameLabel>
+				<challengeDescLabel>ACGAMB_10_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_GAMBLER</texture>
+				<menuLink>to_gambler</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACGAMBLER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- GAMBLER RANK 10 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_GAMB_Rank_10_PokerHands</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_OFFHAND_BOAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_GAMBLER_TREE_COMPLETED</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACGAMBLER</challengeNameLabel>
+						<rankDescLabel>ACGAMB_10_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_GAMBLER_10</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACGAMB_10_pokerhands</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_gambler</textureDictionary>
+						<texture>CHALLENGE_GAMBLER_10</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="30" />
+				</Item>
+			</ranks>
+		</Item>
+
+		<!-- ============================================================================================ HERBALIST ================================================================================================ -->
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HERB_ROOT_1</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHERB_01_yarrow</challengeNameLabel>
+				<challengeDescLabel>ACHERB_01_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HERBALIST</texture>
+				<menuLink>to_herbalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHERBALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HERBALIST RANK 1 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HERB_Rank_01_Yarrow</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_OFFHAND_BUFFALO</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SHOW_LOG_TUTORIAL</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHERBALIST</challengeNameLabel>
+						<rankDescLabel>ACHERB_01_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HERBALIST_1</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHERB_01_yarrow</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_herbalist</textureDictionary>
+						<texture>CHALLENGE_HERBALIST_1</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="31" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HERB_ROOT_2</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHERB_02_berries</challengeNameLabel>
+				<challengeDescLabel>ACHERB_02_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HERBALIST</texture>
+				<menuLink>to_herbalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHERBALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HERBALIST RANK 2 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HERB_Rank_02_Berries</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_FIRST_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIVE_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHERBALIST</challengeNameLabel>
+						<rankDescLabel>ACHERB_02_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HERBALIST_2</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHERB_02_berries</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_herbalist</textureDictionary>
+						<texture>CHALLENGE_HERBALIST_2</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="32" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HERB_ROOT_3</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHERB_03_sagecrafting</challengeNameLabel>
+				<challengeDescLabel>ACHERB_03_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HERBALIST</texture>
+				<menuLink>to_herbalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHERBALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HERBALIST RANK 3 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HERB_Rank_03_SageCrafting</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_GUNBELT_BUFFALO</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHERBALIST</challengeNameLabel>
+						<rankDescLabel>ACHERB_03_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HERBALIST_3</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHERB_03_sagecrafting</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_herbalist</textureDictionary>
+						<texture>CHALLENGE_HERBALIST_3</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="33" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HERB_ROOT_4</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHERB_04_feedmushrooms</challengeNameLabel>
+				<challengeDescLabel>ACHERB_04_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HERBALIST</texture>
+				<menuLink>to_herbalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHERBALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HERBALIST RANK 4 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HERB_Rank_04_FeedMushrooms</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHERBALIST</challengeNameLabel>
+						<rankDescLabel>ACHERB_04_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HERBALIST_4</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHERB_04_feedmushrooms</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_herbalist</textureDictionary>
+						<texture>CHALLENGE_HERBALIST_4</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="34" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HERB_ROOT_5</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHERB_05_tobaccocrafting</challengeNameLabel>
+				<challengeDescLabel>ACHERB_05_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HERBALIST</texture>
+				<menuLink>to_herbalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHERBALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HERBALIST RANK 5 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HERB_Rank_05_TobaccoCrafting</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHERBALIST</challengeNameLabel>
+						<rankDescLabel>ACHERB_05_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HERBALIST_5</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHERB_05_tobaccocrafting</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_herbalist</textureDictionary>
+						<texture>CHALLENGE_HERBALIST_5</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="35" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HERB_ROOT_6</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHERB_06_pickingherbs</challengeNameLabel>
+				<challengeDescLabel>ACHERB_06_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HERBALIST</texture>
+				<menuLink>to_herbalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHERBALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HERBALIST RANK 6 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HERB_Rank_06_PickingHerbs</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHERBALIST</challengeNameLabel>
+						<rankDescLabel>ACHERB_06_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HERBALIST_6</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHERB_06_pickingherbs</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_herbalist</textureDictionary>
+						<texture>CHALLENGE_HERBALIST_6</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="36" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HERB_ROOT_7</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel></challengeNameLabel>
+				<challengeDescLabel>ACHERB_07_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HERBALIST</texture>
+				<menuLink>to_herbalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHERBALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HERBALIST RANK 7 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HERB_Rank_07_CraftSpecialTonic</Item>
+						<Item>ACW_HERB_Rank_07_UseSpecialTonic</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_HOLSTER_BUFFALO</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHERBALIST</challengeNameLabel>
+						<rankDescLabel>ACHERB_07_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HERBALIST_7</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>ACCOMPLETE</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel />
+						<textureDictionary>toast_challenges_herbalist</textureDictionary>
+						<texture>CHALLENGE_HERBALIST_7</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="37" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HERB_ROOT_8</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHERB_08_poisonweapons</challengeNameLabel>
+				<challengeDescLabel>ACHERB_08_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HERBALIST</texture>
+				<menuLink>to_herbalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHERBALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HERBALIST RANK 8 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HERB_Rank_08_PoisonWeapons</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHERBALIST</challengeNameLabel>
+						<rankDescLabel>ACHERB_08_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HERBALIST_8</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHERB_08_poisonweapons</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_herbalist</textureDictionary>
+						<texture>CHALLENGE_HERBALIST_8</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="38" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HERB_ROOT_9</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHERB_09_allherbs</challengeNameLabel>
+				<challengeDescLabel>ACHERB_09_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HERBALIST</texture>
+				<menuLink>to_herbalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHERBALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HERBALIST RANK 9 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HERB_Rank_09_AllHerbs</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_FOURTH_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TWENTY_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHERBALIST</challengeNameLabel>
+						<rankDescLabel>ACHERB_09_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HERBALIST_9</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHERB_09_allherbs</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_herbalist</textureDictionary>
+						<texture>CHALLENGE_HERBALIST_9</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="39" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HERB_ROOT_10</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel></challengeNameLabel>
+				<challengeDescLabel>ACHERB_10_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HERBALIST</texture>
+				<menuLink>to_herbalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHERBALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HERBALIST RANK 10 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HERB_Rank_10_ExoticBirdSeasoning</Item>
+						<Item>ACW_HERB_Rank_10_TenderPorkSeasoning</Item>
+						<Item>ACW_HERB_Rank_10_PlumpBirdSeasoning</Item>
+						<Item>ACW_HERB_Rank_10_BigGameMeatSeasoning</Item>
+						<Item>ACW_HERB_Rank_10_PrimeBeefSeasoning</Item>
+						<Item>ACW_HERB_Rank_10_SucculentFishSeasoning</Item>
+						<Item>ACW_HERB_Rank_10_GameMeatSeasoning</Item>
+						<Item>ACW_HERB_Rank_10_FlakeyFishSeasoning</Item>
+						<Item>ACW_HERB_Rank_10_CrustaceanMeatSeasoning</Item>
+						<Item>ACW_HERB_Rank_10_GristlyMuttonSeasoning</Item>
+						<Item>ACW_HERB_Rank_10_MatureVenisonSeasoning</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_BANDOLIER_BUFFALO</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_HERBALIST_TREE_COMPLETED</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHERBALIST</challengeNameLabel>
+						<rankDescLabel>ACHERB_10_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HERBALIST_10</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>ACCOMPLETE</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel />
+						<textureDictionary>toast_challenges_herbalist</textureDictionary>
+						<texture>CHALLENGE_HERBALIST_10</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="40" />
+				</Item>
+			</ranks>
+		</Item>
+
+		<!-- ============================================================================================ HORSEMANSHIP ================================================================================================ -->
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HORSE_ROOT_1</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHORSE_01_rabbits</challengeNameLabel>
+				<challengeDescLabel>ACHORSE_01_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HORSEMANSHIP</texture>
+				<menuLink>to_horseman</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHORSEMANSHIP_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HORSEMANSHIP RANK 1 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HORSE_Rank_01_Rabbits</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_GUNBELT_DEER</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SHOW_LOG_TUTORIAL</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHORSEMANSHIP</challengeNameLabel>
+						<rankDescLabel>ACHORSE_01_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HORSEMANSHIP_1</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHORSE_01_rabbits</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_horsemanship</textureDictionary>
+						<texture>CHALLENGE_HORSEMANSHIP_1</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="41" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HORSE_ROOT_2</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHORSE_02_obstacles</challengeNameLabel>
+				<challengeDescLabel>ACHORSE_02_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HORSEMANSHIP</texture>
+				<menuLink>to_horseman</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHORSEMANSHIP_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HORSEMANSHIP RANK 2 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HORSE_Rank_02_Obstacles</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_FIRST_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIVE_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHORSEMANSHIP</challengeNameLabel>
+						<rankDescLabel>ACHORSE_02_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHORSE_02_obstacles</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_horsemanship</textureDictionary>
+						<texture>CHALLENGE_HORSEMANSHIP_2</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="42" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HORSE_ROOT_3</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHORSE_03_timedride</challengeNameLabel>
+				<challengeDescLabel>ACHORSE_03_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HORSEMANSHIP</texture>
+				<menuLink>to_horseman</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHORSEMANSHIP_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HORSEMANSHIP RANK 3 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HORSE_Rank_03_TimedRide</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_HOLSTER_DEER</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHORSEMANSHIP</challengeNameLabel>
+						<rankDescLabel>ACHORSE_03_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HORSEMANSHIP_3</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary />
+						<menuAwardTexture />
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHORSE_03_timedride</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_horsemanship</textureDictionary>
+						<texture>CHALLENGE_HORSEMANSHIP_3</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="43" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HORSE_ROOT_4</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHORSE_04_lassodrag</challengeNameLabel>
+				<challengeDescLabel>ACHORSE_04_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HORSEMANSHIP</texture>
+				<menuLink>to_horseman</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHORSEMANSHIP_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HORSEMANSHIP RANK 4 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HORSE_Rank_04_LassoDrag</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHORSEMANSHIP</challengeNameLabel>
+						<rankDescLabel>ACHORSE_04_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HORSEMANSHIP_4</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHORSE_04_lassodrag</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_horsemanship</textureDictionary>
+						<texture>CHALLENGE_HORSEMANSHIP_4</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="44" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HORSE_ROOT_5</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHORSE_05_trample</challengeNameLabel>
+				<challengeDescLabel>ACHORSE_05_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HORSEMANSHIP</texture>
+				<menuLink>to_horseman</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHORSEMANSHIP_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HORSEMANSHIP RANK 5 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HORSE_Rank_05_Trample</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHORSEMANSHIP</challengeNameLabel>
+						<rankDescLabel>ACHORSE_05_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHORSE_05_trample</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_horsemanship</textureDictionary>
+						<texture>CHALLENGE_HORSEMANSHIP_5</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="45" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HORSE_ROOT_6</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHORSE_06_timedride</challengeNameLabel>
+				<challengeDescLabel>ACHORSE_06_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HORSEMANSHIP</texture>
+				<menuLink>to_horseman</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHORSEMANSHIP_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HORSEMANSHIP RANK 6 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HORSE_Rank_06_TimedRide</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHORSEMANSHIP</challengeNameLabel>
+						<rankDescLabel>ACHORSE_06_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HORSEMANSHIP_6</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHORSE_06_timedride</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_horsemanship</textureDictionary>
+						<texture>CHALLENGE_HORSEMANSHIP_6</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="46" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HORSE_ROOT_7</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHORSE_07_killnodismount</challengeNameLabel>
+				<challengeDescLabel>ACHORSE_07_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HORSEMANSHIP</texture>
+				<menuLink>to_horseman</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHORSEMANSHIP_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HORSEMANSHIP RANK 7 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HORSE_Rank_07_KillNoDismount</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_BANDOLIER_DEER</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHORSEMANSHIP</challengeNameLabel>
+						<rankDescLabel>ACHORSE_07_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HORSEMANSHIP_7</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHORSE_07_killnodismount</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_horsemanship</textureDictionary>
+						<texture>CHALLENGE_HORSEMANSHIP_7</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="47" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HORSE_ROOT_8</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHORSE_08_predators</challengeNameLabel>
+				<challengeDescLabel>ACHORSE_08_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HORSEMANSHIP</texture>
+				<menuLink>to_horseman</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHORSEMANSHIP_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HORSEMANSHIP RANK 8 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HORSE_Rank_08_Predators</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHORSEMANSHIP</challengeNameLabel>
+						<rankDescLabel>ACHORSE_08_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHORSE_08_predators</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_horsemanship</textureDictionary>
+						<texture>CHALLENGE_HORSEMANSHIP_8</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="48" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HORSE_ROOT_9</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHORSE_09_timedride</challengeNameLabel>
+				<challengeDescLabel>ACHORSE_09_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HORSEMANSHIP</texture>
+				<menuLink>to_horseman</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHORSEMANSHIP_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HORSEMANSHIP RANK 9 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HORSE_Rank_09_TimedRide</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_FOURTH_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TWENTY_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHORSEMANSHIP</challengeNameLabel>
+						<rankDescLabel>ACHORSE_09_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HORSEMANSHIP_9</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHORSE_09_timedride</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_horsemanship</textureDictionary>
+						<texture>CHALLENGE_HORSEMANSHIP_9</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="49" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HORSE_ROOT_10</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel></challengeNameLabel>
+				<challengeDescLabel>ACHORSE_10_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_HORSEMANSHIP</texture>
+				<menuLink>to_horseman</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACHORSEMANSHIP_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- HORSEMANSHIP RANK 10 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HORSE_Rank_10_American_Paint</Item>
+						<Item>ACW_HORSE_Rank_10_American_Standardbred</Item>
+						<Item>ACW_HORSE_Rank_10_Appaloosa</Item>
+						<!--<Item>ACW_HORSE_Rank_10_Arabian</Item>-->
+						<Item>ACW_HORSE_Rank_10_Hungarian</Item>
+						<Item>ACW_HORSE_Rank_10_Kentucky</Item>
+						<Item>ACW_HORSE_Rank_10_Morgan</Item>
+						<Item>ACW_HORSE_Rank_10_Mustang</Item>
+						<Item>ACW_HORSE_Rank_10_Nokota</Item>
+						<Item>ACW_HORSE_Rank_10_Tennessee</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_OFFHAND_DEER</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_HORSEMANSHIP_TREE_COMPLETED</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACHORSEMANSHIP</challengeNameLabel>
+						<rankDescLabel>ACHORSE_10_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_HORSEMANSHIP_10</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>ACCOMPLETE</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel />
+						<textureDictionary>toast_challenges_horsemanship</textureDictionary>
+						<texture>CHALLENGE_HORSEMANSHIP_10</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="50" />
+				</Item>
+			</ranks>
+		</Item>
+
+		<!-- ============================================================================================ MASTER HUNTER ================================================================================================ -->
+
+		<!-- MASTER HUNTER ROOT -->
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HUNT_ROOT_1</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHUNT_01_deer</challengeNameLabel>
+				<challengeDescLabel>ACHUNT_01_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_MASTER_HUNTER</texture>
+				<menuLink>to_hunter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACMASTERHUNTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- MASTER HUNTER RANK 1 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HUNT_Rank_01_Skin</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_OFFHAND_COUGAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SHOW_LOG_TUTORIAL</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACMASTERHUNTER</challengeNameLabel>
+						<rankDescLabel>ACHUNT_01_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_MASTERHUNTER_1</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHUNT_01_deer</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_hunter</textureDictionary>
+						<texture>CHALLENGE_MASTER_HUNTER_1</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="51" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HUNT_ROOT</name> 
+				<!-- 
+					there is a bug in this rank challenge that if the item name is not "SP_CHAL_HUNT_ROOT" them the game wont track any progress
+					its related of the use of the StatsGoalScoreSourceScript in goals_sp unfortunately, and currently the other ranks/challenges that use this methods, are actually 
+					related to the poker/blackjack/fiveFinger minigames, so i still need to found if they are bugged and if there is a fix for them
+				-->
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHUNT_02_rabbits</challengeNameLabel>
+				<challengeDescLabel>ACHUNT_02_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_MASTER_HUNTER</texture>
+				<menuLink>to_hunter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACMASTERHUNTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- MASTER HUNTER RANK 2 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HUNT_Rank_02_Rabbits</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_FIRST_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIVE_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACMASTERHUNTER</challengeNameLabel>
+						<rankDescLabel>ACHUNT_02_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_MASTERHUNTER_2</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHUNT_02_rabbits</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_hunter</textureDictionary>
+						<texture>CHALLENGE_MASTER_HUNTER_2</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="52" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HUNT_ROOT_3</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHUNT_03_binoculars</challengeNameLabel>
+				<challengeDescLabel>ACHUNT_03_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_MASTER_HUNTER</texture>
+				<menuLink>to_hunter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACMASTERHUNTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- MASTER HUNTER RANK 3 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HUNT_Rank_03_Binoculars</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_BANDOLIER_COUGAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACMASTERHUNTER</challengeNameLabel>
+						<rankDescLabel>ACHUNT_03_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_MASTERHUNTER_3</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHUNT_03_binoculars</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_hunter</textureDictionary>
+						<texture>CHALLENGE_MASTER_HUNTER_3</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="53" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HUNT_ROOT_4</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHUNT_04_cleankill</challengeNameLabel>
+				<challengeDescLabel>ACHUNT_04_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_MASTER_HUNTER</texture>
+				<menuLink>to_hunter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACMASTERHUNTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- MASTER HUNTER RANK 4 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HUNT_Rank_04_CleanKill</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACMASTERHUNTER</challengeNameLabel>
+						<rankDescLabel>ACHUNT_04_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_MASTERHUNTER_4</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHUNT_04_cleankill</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_hunter</textureDictionary>
+						<texture>CHALLENGE_MASTER_HUNTER_4</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="54" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HUNT_ROOT_5</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHUNT_05_bear</challengeNameLabel>
+				<challengeDescLabel>ACHUNT_05_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_MASTER_HUNTER</texture>
+				<menuLink>to_hunter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACMASTERHUNTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- MASTER HUNTER RANK 5 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HUNT_Rank_05_Bear</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACMASTERHUNTER</challengeNameLabel>
+						<rankDescLabel>ACHUNT_05_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHUNT_05_bear</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_hunter</textureDictionary>
+						<texture>CHALLENGE_MASTER_HUNTER_5</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="55" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HUNT_ROOT_6</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel></challengeNameLabel>
+				<challengeDescLabel>ACHUNT_06_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_MASTER_HUNTER</texture>
+				<menuLink>to_hunter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACMASTERHUNTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- MASTER HUNTER RANK 6 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HUNT_Rank_06_CougarKill</Item>
+						<Item>ACW_HUNT_Rank_06_CougarSkin</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACMASTERHUNTER</challengeNameLabel>
+						<rankDescLabel>ACHUNT_06_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>ACCOMPLETE</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel />
+						<textureDictionary>toast_challenges_hunter</textureDictionary>
+						<texture>CHALLENGE_MASTER_HUNTER_6</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="56" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HUNT_ROOT_7</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHUNT_07_baitedkills</challengeNameLabel>
+				<challengeDescLabel>ACHUNT_07_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_MASTER_HUNTER</texture>
+				<menuLink>to_hunter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACMASTERHUNTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- MASTER HUNTER RANK 7 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HUNT_Rank_07_BaitedKills</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_GUNBELT_COUGAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACMASTERHUNTER</challengeNameLabel>
+						<rankDescLabel>ACHUNT_07_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_MASTERHUNTER_7</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHUNT_07_baitedkills</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_hunter</textureDictionary>
+						<texture>CHALLENGE_MASTER_HUNTER_7</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="57" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HUNT_ROOT_8</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHUNT_08_lootedfish</challengeNameLabel>
+				<challengeDescLabel>ACHUNT_08_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_MASTER_HUNTER</texture>
+				<menuLink>to_hunter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACMASTERHUNTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- MASTER HUNTER RANK 8 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HUNT_Rank_08_LootedFish</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACMASTERHUNTER</challengeNameLabel>
+						<rankDescLabel>ACHUNT_08_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_MASTERHUNTER_8</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHUNT_08_lootedfish</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_hunter</textureDictionary>
+						<texture>CHALLENGE_MASTER_HUNTER_8</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="58" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HUNT_ROOT_9</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHUNT_09_possum</challengeNameLabel>
+				<challengeDescLabel>ACHUNT_09_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_MASTER_HUNTER</texture>
+				<menuLink>to_hunter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACMASTERHUNTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- MASTER HUNTER RANK 9 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HUNT_Rank_09_Possum</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>SP_CHAL_LEGENDARY_PANTHER</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SPAWN_MASTER_HUNTER_RANK_10</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_FOURTH_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TWENTY_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACMASTERHUNTER</challengeNameLabel>
+						<rankDescLabel>ACHUNT_09_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_MASTERHUNTER_9</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHUNT_09_possum</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_hunter</textureDictionary>
+						<texture>CHALLENGE_MASTER_HUNTER_9</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="59" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_HUNT_ROOT_10</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACHUNT_10_panther</challengeNameLabel>
+				<challengeDescLabel>ACHUNT_10_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_MASTER_HUNTER</texture>
+				<menuLink>to_hunter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACMASTERHUNTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- MASTER HUNTER RANK 10 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_HUNT_Rank_10_Panther</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_HOLSTER_COUGAR</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_MASTER_HUNTER_TREE_COMPLETED</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACMASTERHUNTER</challengeNameLabel>
+						<rankDescLabel>ACHUNT_10_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_MASTERHUNTER_10</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACHUNT_10_panther</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_hunter</textureDictionary>
+						<texture>CHALLENGE_MASTER_HUNTER_10</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="60" />
+				</Item>
+			</ranks>
+		</Item>
+
+		<!-- ============================================================================================ SHARPSHOOTER ================================================================================================ -->
+
+		<!-- SHARPSHOOTER ROOT -->
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SHOT_ROOT_1</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSHOT_01_flying</challengeNameLabel>
+				<challengeDescLabel>ACSHOT_01_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SHARPSHOOTER</texture>
+				<menuLink>to_sharpshooter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSHARPSHOOTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SHARPSHOOTER RANK 1 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SHOT_Rank_01_Flying</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_BANDOLIER_PANTHER</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SHOW_LOG_TUTORIAL</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSHARPSHOOTER</challengeNameLabel>
+						<rankDescLabel>ACSHOT_01_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SHARPSHOOTER_1</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSHOT_01_flying</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_sharpshooter</textureDictionary>
+						<texture>CHALLENGE_SHARPSHOOTER_1</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="61" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SHOT_ROOT_2</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSHOT_02_animals</challengeNameLabel>
+				<challengeDescLabel>ACSHOT_02_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SHARPSHOOTER</texture>
+				<menuLink>to_sharpshooter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSHARPSHOOTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SHARPSHOOTER RANK 2 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SHOT_Rank_02_Animals</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_FIRST_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIVE_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSHARPSHOOTER</challengeNameLabel>
+						<rankDescLabel>ACSHOT_02_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SHARPSHOOTER_2</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSHOT_02_animals</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_sharpshooter</textureDictionary>
+						<texture>CHALLENGE_SHARPSHOOTER_2</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="62" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SHOT_ROOT_3</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSHOT_03_train</challengeNameLabel>
+				<challengeDescLabel>ACSHOT_03_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SHARPSHOOTER</texture>
+				<menuLink>to_sharpshooter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSHARPSHOOTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SHARPSHOOTER RANK 3 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SHOT_Rank_03_Train</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_HOLSTER_PANTHER</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSHARPSHOOTER</challengeNameLabel>
+						<rankDescLabel>ACSHOT_03_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SHARPSHOOTER_3</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSHOT_03_train</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_sharpshooter</textureDictionary>
+						<texture>CHALLENGE_SHARPSHOOTER_3</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="63" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SHOT_ROOT_4</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSHOT_04_tomahawk</challengeNameLabel>
+				<challengeDescLabel>ACSHOT_04_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SHARPSHOOTER</texture>
+				<menuLink>to_sharpshooter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSHARPSHOOTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SHARPSHOOTER RANK 4 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SHOT_Rank_04_Tomahawk</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSHARPSHOOTER</challengeNameLabel>
+						<rankDescLabel>ACSHOT_04_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SHARPSHOOTER_4</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSHOT_04_tomahawk</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_sharpshooter</textureDictionary>
+						<texture>CHALLENGE_SHARPSHOOTER_4</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="64" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SHOT_ROOT_5</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSHOT_05_switching</challengeNameLabel>
+				<challengeDescLabel>ACSHOT_05_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SHARPSHOOTER</texture>
+				<menuLink>to_sharpshooter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSHARPSHOOTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SHARPSHOOTER RANK 5 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SHOT_Rank_05_Switching</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSHARPSHOOTER</challengeNameLabel>
+						<rankDescLabel>ACSHOT_05_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SHARPSHOOTER_5</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSHOT_05_switching</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_sharpshooter</textureDictionary>
+						<texture>CHALLENGE_SHARPSHOOTER_5</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="65" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SHOT_ROOT_6</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSHOT_06_scopedrifle</challengeNameLabel>
+				<challengeDescLabel>ACSHOT_06_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SHARPSHOOTER</texture>
+				<menuLink>to_sharpshooter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSHARPSHOOTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SHARPSHOOTER RANK 6 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SHOT_Rank_06_ScopedRifle</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSHARPSHOOTER</challengeNameLabel>
+						<rankDescLabel>ACSHOT_06_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SHARPSHOOTER_6</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSHOT_06_scopedrifle</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_sharpshooter</textureDictionary>
+						<texture>CHALLENGE_SHARPSHOOTER_6</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="66" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SHOT_ROOT_7</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSHOT_07_headshots</challengeNameLabel>
+				<challengeDescLabel>ACSHOT_07_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SHARPSHOOTER</texture>
+				<menuLink>to_sharpshooter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSHARPSHOOTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SHARPSHOOTER RANK 7 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SHOT_Rank_07_Headshots</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_OFFHAND_PANTHER</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSHARPSHOOTER</challengeNameLabel>
+						<rankDescLabel>ACSHOT_07_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SHARPSHOOTER_7</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSHOT_07_headshots</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_sharpshooter</textureDictionary>
+						<texture>CHALLENGE_SHARPSHOOTER_7</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="67" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SHOT_ROOT_8</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSHOT_08_disarm</challengeNameLabel>
+				<challengeDescLabel>ACSHOT_08_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SHARPSHOOTER</texture>
+				<menuLink>to_sharpshooter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSHARPSHOOTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SHARPSHOOTER RANK 8 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SHOT_Rank_08_Disarm</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSHARPSHOOTER</challengeNameLabel>
+						<rankDescLabel>ACSHOT_08_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSHOT_08_disarm</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_sharpshooter</textureDictionary>
+						<texture>CHALLENGE_SHARPSHOOTER_8</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="68" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SHOT_ROOT_9</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSHOT_09_disarm</challengeNameLabel>
+				<challengeDescLabel>ACSHOT_09_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SHARPSHOOTER</texture>
+				<menuLink>to_sharpshooter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSHARPSHOOTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SHARPSHOOTER RANK 9 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SHOT_Rank_09_Disarm</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_DEADEYE_FOURTH_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TWENTY_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSHARPSHOOTER</challengeNameLabel>
+						<rankDescLabel>ACSHOT_09_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSHOT_09_disarm</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_sharpshooter</textureDictionary>
+						<texture>CHALLENGE_SHARPSHOOTER_9</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="69" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SHOT_ROOT_10</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSHOT_10_sniperrifle</challengeNameLabel>
+				<challengeDescLabel>ACSHOT_10_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SHARPSHOOTER</texture>
+				<menuLink>to_sharpshooter</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSHARPSHOOTER_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SHARPSHOOTER RANK 10 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SHOT_Rank_10_SniperRifle</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_GUNBELT_PANTHER</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SHARPSHOOTER_TREE_COMPLETED</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSHARPSHOOTER</challengeNameLabel>
+						<rankDescLabel>ACSHOT_10_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SHARPSHOOTER_10</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSHOT_10_sniperrifle</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_sharpshooter</textureDictionary>
+						<texture>CHALLENGE_SHARPSHOOTER_10</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="70" />
+				</Item>
+			</ranks>
+		</Item>
+
+		<!-- ============================================================================================ SURVIVALIST ================================================================================================ -->
+
+		<!-- SURVIVALIST ROOT -->
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SURV_ROOT_1</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSURV_01_bluegill</challengeNameLabel>
+				<challengeDescLabel>ACSURV_01_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SURVIVALIST</texture>
+				<menuLink>to_survivalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSURVIVALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SURVIVALIST RANK 1 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SURV_Rank_01_Bluegill</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_GUNBELT_RABBIT</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SHOW_LOG_TUTORIAL</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSURVIVALIST</challengeNameLabel>
+						<rankDescLabel>ACSURV_01_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SURVIVALIST_1</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSURV_01_bluegill</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_survivalist</textureDictionary>
+						<texture>CHALLENGE_SURVIVALIST_1</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="71" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SURV_ROOT_2</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSURV_02_carcassdonation</challengeNameLabel>
+				<challengeDescLabel>ACSURV_02_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SURVIVALIST</texture>
+				<menuLink>to_survivalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSURVIVALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SURVIVALIST RANK 2 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SURV_Rank_02_CarcassDonation</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_FIRST_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIVE_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSURVIVALIST</challengeNameLabel>
+						<rankDescLabel>ACSURV_02_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSURV_02_carcassdonation</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_survivalist</textureDictionary>
+						<texture>CHALLENGE_SURVIVALIST_2</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="72" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SURV_ROOT_3</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSURV_03_varmintrifle</challengeNameLabel>
+				<challengeDescLabel>ACSURV_03_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SURVIVALIST</texture>
+				<menuLink>to_survivalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSURVIVALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SURVIVALIST RANK 3 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SURV_Rank_03_VarmintRifle</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_OFFHAND_RABBIT</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSURVIVALIST</challengeNameLabel>
+						<rankDescLabel>ACSURV_03_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SURVIVALIST_3</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSURV_03_varmintrifle</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_survivalist</textureDictionary>
+						<texture>CHALLENGE_SURVIVALIST_3</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="73" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SURV_ROOT_4</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel></challengeNameLabel>
+				<challengeDescLabel>ACSURV_04_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SURVIVALIST</texture>
+				<menuLink>to_survivalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSURVIVALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SURVIVALIST RANK 4 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SURV_Rank_04_DynamiteArrow</Item>
+						<Item>ACW_SURV_Rank_04_FireArrow</Item>
+						<Item>ACW_SURV_Rank_04_ImprovedArrow</Item>
+						<Item>ACW_SURV_Rank_04_PoisonArrow</Item>
+						<Item>ACW_SURV_Rank_04_SmallGameArrow</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSURVIVALIST</challengeNameLabel>
+						<rankDescLabel>ACSURV_04_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SURVIVALIST_4</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>ACCOMPLETE</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel />
+						<textureDictionary>toast_challenges_survivalist</textureDictionary>
+						<texture>CHALLENGE_SURVIVALIST_4</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="74" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SURV_ROOT_5</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel></challengeNameLabel>
+				<challengeDescLabel>ACSURV_05_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SURVIVALIST</texture>
+				<menuLink>to_survivalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSURVIVALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SURVIVALIST RANK 5 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SURV_Rank_05_FishingRiverboat</Item>
+						<Item>ACW_SURV_Rank_05_FishingTracks</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSURVIVALIST</challengeNameLabel>
+						<rankDescLabel>ACSURV_05_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>ACCOMPLETE</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel />
+						<textureDictionary>toast_challenges_survivalist</textureDictionary>
+						<texture>CHALLENGE_SURVIVALIST_5</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="75" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SURV_ROOT_6</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSURV_06_scavengerkill</challengeNameLabel>
+				<challengeDescLabel>ACSURV_06_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SURVIVALIST</texture>
+				<menuLink>to_survivalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSURVIVALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SURVIVALIST RANK 6 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SURV_Rank_06_ScavengerKill</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSURVIVALIST</challengeNameLabel>
+						<rankDescLabel>ACSURV_06_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SURVIVALIST_6</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSURV_06_scavengerkill</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_survivalist</textureDictionary>
+						<texture>CHALLENGE_SURVIVALIST_6</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="76" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SURV_ROOT_7</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSURV_07_smallgame</challengeNameLabel>
+				<challengeDescLabel>ACSURV_07_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SURVIVALIST</texture>
+				<menuLink>to_survivalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSURVIVALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SURVIVALIST RANK 7 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SURV_Rank_07_SmallGame</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_BANDOLIER_RABBIT</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSURVIVALIST</challengeNameLabel>
+						<rankDescLabel>ACSURV_07_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SURVIVALIST_7</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSURV_07_smallgame</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_survivalist</textureDictionary>
+						<texture>CHALLENGE_SURVIVALIST_7</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="77" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SURV_ROOT_8</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel></challengeNameLabel>
+				<challengeDescLabel>ACSURV_08_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SURVIVALIST</texture>
+				<menuLink>to_survivalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSURVIVALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SURVIVALIST RANK 8 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SURV_Rank_08_HomingTomahawk</Item>
+						<Item>ACW_SURV_Rank_08_ImprovedTomahawk</Item>
+						<Item>ACW_SURV_Rank_08_VolatileDynamite</Item>
+						<Item>ACW_SURV_Rank_08_VolatileFireBottle</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSURVIVALIST</challengeNameLabel>
+						<rankDescLabel>ACSURV_08_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SURVIVALIST_8</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>ACCOMPLETE</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel />
+						<textureDictionary>toast_challenges_survivalist</textureDictionary>
+						<texture>CHALLENGE_SURVIVALIST_8</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="78" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SURV_ROOT_9</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSURV_09_heavyfishcaught</challengeNameLabel>
+				<challengeDescLabel>ACSURV_09_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SURVIVALIST</texture>
+				<menuLink>to_survivalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSURVIVALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SURVIVALIST RANK 9 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SURV_Rank_09_HeavyFishCaught</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_STAMINA_FOURTH_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TWENTY_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSURVIVALIST</challengeNameLabel>
+						<rankDescLabel>ACSURV_09_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSURV_09_heavyfishcaught</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_survivalist</textureDictionary>
+						<texture>CHALLENGE_SURVIVALIST_9</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="79" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_SURV_ROOT_10</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACSURV_10_menu_trimmed</challengeNameLabel>
+				<challengeDescLabel>ACSURV_10_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_SURVIVALIST</texture>
+				<menuLink>to_survivalist</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACSURVIVALIST_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- SURVIVALIST RANK 10 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_SURV_Rank_10_Bluegill</Item>
+						<Item>ACW_SURV_Rank_10_BullheadCatfish</Item>
+						<Item>ACW_SURV_Rank_10_ChainPickerel</Item>
+						<Item>ACW_SURV_Rank_10_ChannelCatfish</Item>
+						<Item>ACW_SURV_Rank_10_LakeSturgeon</Item>
+						<Item>ACW_SURV_Rank_10_LargemouthBass</Item>
+						<Item>ACW_SURV_Rank_10_LongnoseGar</Item>
+						<Item>ACW_SURV_Rank_10_Muskie</Item>
+						<Item>ACW_SURV_Rank_10_NorthernPike</Item>
+						<Item>ACW_SURV_Rank_10_Perch</Item>
+						<Item>ACW_SURV_Rank_10_RedfinPickerel</Item>
+						<Item>ACW_SURV_Rank_10_RockBass</Item>
+						<Item>ACW_SURV_Rank_10_SmallmouthBass</Item>
+						<Item>ACW_SURV_Rank_10_SockeyeSalmon</Item>
+						<Item>ACW_SURV_Rank_10_SteelheadTrout</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_HOLSTER_RABBIT</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SURVIVALIST_TREE_COMPLETED</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACSURVIVALIST</challengeNameLabel>
+						<rankDescLabel>ACSURV_10_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_SURVIVALIST_10</menuAwardLabel>
+						<menuGoalConsolidationLabel>ACSURV_10_menu_trimmed</menuGoalConsolidationLabel>
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACSURV_10_menu_trimmed</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_survivalist</textureDictionary>
+						<texture>CHALLENGE_SURVIVALIST_10</texture>
+						<isConsolidated value="true" />
+					</uiInfo>
+					<feedPostSubtype value="80" />
+				</Item>
+			</ranks>
+		</Item>
+
+		<!-- ============================================================================================ WEAPONS EXPERT ================================================================================================ -->
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_WEAP_ROOT_1</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACWEAP_01_knifekills</challengeNameLabel>
+				<challengeDescLabel>ACWEAP_01_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_WEAPONS_EXPERT</texture>
+				<menuLink>to_wexpert</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACWEAPONS_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- WEAPONS EXPERT RANK 1 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_WEAP_Rank_01_KnifeKills</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_HOLSTER_SNAKE</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_SHOW_LOG_TUTORIAL</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACWEAPONS</challengeNameLabel>
+						<rankDescLabel>ACWEAP_01_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_WEAPONS_1</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACWEAP_01_knifekills</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_weaponexpert</textureDictionary>
+						<texture>CHALLENGE_WEAPONS_EXPERT_1</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="81" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_WEAP_ROOT_2</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACWEAP_02_throwingknife</challengeNameLabel>
+				<challengeDescLabel>ACWEAP_02_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_WEAPONS_EXPERT</texture>
+				<menuLink>to_wexpert</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACWEAPONS_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- WEAPONS EXPERT RANK 2 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_WEAP_Rank_02_ThrowingKnife</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_FIRST_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIVE_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACWEAPONS</challengeNameLabel>
+						<rankDescLabel>ACWEAP_02_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACWEAP_02_throwingknife</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_weaponexpert</textureDictionary>
+						<texture>CHALLENGE_WEAPONS_EXPERT_2</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="82" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_WEAP_ROOT_3</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACWEAP_03_tomahawk</challengeNameLabel>
+				<challengeDescLabel>ACWEAP_03_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_WEAPONS_EXPERT</texture>
+				<menuLink>to_wexpert</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACWEAPONS_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- WEAPONS EXPERT RANK 3 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_WEAP_Rank_03_Tomahawk</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_GUNBELT_SNAKE</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACWEAPONS</challengeNameLabel>
+						<rankDescLabel>ACWEAP_03_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_WEAPONS_3</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACWEAP_03_tomahawk</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_weaponexpert</textureDictionary>
+						<texture>CHALLENGE_WEAPONS_EXPERT_3</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="83" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_WEAP_ROOT_4</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACWEAP_04_shotguncraftedammo</challengeNameLabel>
+				<challengeDescLabel>ACWEAP_04_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_WEAPONS_EXPERT</texture>
+				<menuLink>to_wexpert</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACWEAPONS_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- WEAPONS EXPERT RANK 4 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_WEAP_Rank_04_ShotgunCraftedAmmo</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACWEAPONS</challengeNameLabel>
+						<rankDescLabel>ACWEAP_04_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACWEAP_04_shotguncraftedammo</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_weaponexpert</textureDictionary>
+						<texture>CHALLENGE_WEAPONS_EXPERT_4</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="84" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_WEAP_ROOT_5</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACWEAP_05_mounted</challengeNameLabel>
+				<challengeDescLabel>ACWEAP_05_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_WEAPONS_EXPERT</texture>
+				<menuLink>to_wexpert</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACWEAPONS_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- WEAPONS EXPERT RANK 5 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_WEAP_Rank_05_Mounted</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_SECOND_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACWEAPONS</challengeNameLabel>
+						<rankDescLabel>ACWEAP_05_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACWEAP_05_mounted</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_weaponexpert</textureDictionary>
+						<texture>CHALLENGE_WEAPONS_EXPERT_5</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="85" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_WEAP_ROOT_6</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACWEAP_06_dynamite</challengeNameLabel>
+				<challengeDescLabel>ACWEAP_06_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_WEAPONS_EXPERT</texture>
+				<menuLink>to_wexpert</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACWEAPONS_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- WEAPONS EXPERT RANK 6 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_WEAP_Rank_06_Dynamite</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACWEAPONS</challengeNameLabel>
+						<rankDescLabel>ACWEAP_06_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACWEAP_06_dynamite</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_weaponexpert</textureDictionary>
+						<texture>CHALLENGE_WEAPONS_EXPERT_6</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="86" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_WEAP_ROOT_7</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACWEAP_07_tomahawk</challengeNameLabel>
+				<challengeDescLabel>ACWEAP_07_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_WEAPONS_EXPERT</texture>
+				<menuLink>to_wexpert</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACWEAPONS_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- WEAPONS EXPERT RANK 7 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_WEAP_Rank_07_Tomahawk</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_OFFHAND_SNAKE</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACWEAPONS</challengeNameLabel>
+						<rankDescLabel>ACWEAP_07_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_WEAPONS_7</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACWEAP_07_tomahawk</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_weaponexpert</textureDictionary>
+						<texture>CHALLENGE_WEAPONS_EXPERT_7</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="87" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_WEAP_ROOT_8</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACWEAP_08_sidearm</challengeNameLabel>
+				<challengeDescLabel>ACWEAP_08_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_WEAPONS_EXPERT</texture>
+				<menuLink>to_wexpert</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACWEAPONS_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- WEAPONS EXPERT RANK 8 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_WEAP_Rank_08_Sidearm</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_THIRD_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_FIFTEEN_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACWEAPONS</challengeNameLabel>
+						<rankDescLabel>ACWEAP_08_obj</rankDescLabel>
+						<menuAwardLabel />
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACWEAP_08_sidearm</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_weaponexpert</textureDictionary>
+						<texture>CHALLENGE_WEAPONS_EXPERT_8</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="88" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_WEAP_ROOT_9</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACWEAP_09_bow</challengeNameLabel>
+				<challengeDescLabel>ACWEAP_09_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_WEAPONS_EXPERT</texture>
+				<menuLink>to_wexpert</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACWEAPONS_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- WEAPONS EXPERT RANK 9 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_WEAP_Rank_09_Bow</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_XP_HEALTH_FOURTH_RANK</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHALLENGE_REWARD_TYPE_MONEY_TWENTY_DOLLARS</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACWEAPONS</challengeNameLabel>
+						<rankDescLabel>ACWEAP_09_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_WEAPONS_9</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_PROG_AND_GOAL_WITH_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACWEAP_09_bow</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_weaponexpert</textureDictionary>
+						<texture>CHALLENGE_WEAPONS_EXPERT_9</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="89" />
+				</Item>
+			</ranks>
+		</Item>
+		<Item type="StatsChallengeLinear">
+			<name>SP_CHAL_WEAP_ROOT_10</name>
+			<uiInfo type="StatsChallengeLinearUIInfo">
+				<challengeNameLabel>ACWEAP_10_bear</challengeNameLabel>
+				<challengeDescLabel>ACWEAP_10_obj</challengeDescLabel>
+				<textureDictionary>pausemenu_challenges</textureDictionary>
+				<texture>CHALLENGE_OVERVIEW_WEAPONS_EXPERT</texture>
+				<menuLink>to_wexpert</menuLink>
+				<entryType>kLogEntryChallenge</entryType>
+				<toolTip>ACWEAPONS_TOP_TIP</toolTip>
+				<displayInLog value="true" />
+				<displayInChallengeMenu value="true" />
+				<displayGoalOnCompletion value="true" />
+			</uiInfo>
+			<ranks>
+
+				<!-- WEAPONS EXPERT RANK 10 -->
+
+				<Item>
+					<goalHashes>
+						<Item>ACW_WEAP_Rank_10_Bear</Item>
+					</goalHashes>
+					<reward type="CRewards">
+						<rewards>
+							<Item type="CUnlockReward">
+								<unlock>PROVISION_REINFORCED_BANDOLIER_SNAKE</unlock>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_WEAPONS_EXPERT_TREE_COMPLETED</rewardType>
+							</Item>
+							<Item type="CScriptReward">
+								<rewardType>CHAL_REINFORCED_EQUIPMENT_UNLOCKED</rewardType>
+							</Item>
+						</rewards>
+					</reward>
+					<uiInfo>
+						<challengeNameLabel>ACWEAPONS</challengeNameLabel>
+						<rankDescLabel>ACWEAP_10_obj</rankDescLabel>
+						<menuAwardLabel>CHALLENGES_TIP_WEAPONS_10</menuAwardLabel>
+						<menuGoalConsolidationLabel />
+						<menuAwardTextureDictionary>toast_challenges_bandit</menuAwardTextureDictionary>
+						<menuAwardTexture>CHALLENGE_BANDIT_1</menuAwardTexture>
+						<toastRankCompleteDescriptionFormatLabel>PM_SCR_CHAL_DESC</toastRankCompleteDescriptionFormatLabel>
+						<toastRankCompleteDescriptionLabel>ACWEAP_10_bear</toastRankCompleteDescriptionLabel>
+						<textureDictionary>toast_challenges_weaponexpert</textureDictionary>
+						<texture>CHALLENGE_WEAPONS_EXPERT_10</texture>
+						<isConsolidated value="false" />
+					</uiInfo>
+					<feedPostSubtype value="90" />
+				</Item>
+			</ranks>
+		</Item>
+	</challenges>
+</Challenges>
